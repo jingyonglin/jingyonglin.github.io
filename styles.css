@@ -13,6 +13,17 @@ h1{
   line-height: 50px;
   font-weight: bold;
 }
+body h1 sub{
+  color: #aaa;
+  vertical-align:baseline;
+}
+h1 sub:before{
+  content: "(";
+}
+h1 sub:after{
+  content: ")";
+}
+
 img{
   border-radius: 50px;
 }
